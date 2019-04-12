@@ -5,11 +5,11 @@ Testing dependency resolution with Go Modules.
 
 ## Summary
 
-| Test Case       | Tidy time | Tidy size | Download time | Download size |
-|-----------------|-----------|-----------|---------------|---------------|
-| No proxy        | 21.253s   | 108M      | 22.299s       | 218M          |
-| Gocenter.io     | 8.215s    | 17M       | 11.990s       | 127M          |
-| My Athens Proxy | 5.851s    | 17M       | 6.811s        | 126M          |
+| Test Case       | `go mod tidy` time | `go mod tidy` size | `go mod download` time | `go mod download` size |
+|-----------------|--------------------|--------------------|------------------------|------------------------|
+| No proxy        | 21.253s            | 108M               | 22.299s                | 218M                   |
+| Gocenter.io     | 8.215s             | 17M                | 11.990s                | 127M                   |
+| My Athens Proxy | 5.851s             | 17M                | 6.811s                 | 126M                   |
 
 
 
