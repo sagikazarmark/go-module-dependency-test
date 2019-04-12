@@ -175,6 +175,8 @@ time go mod download
 du -sh /tmp/gopath-for-dependency-size-test-2
 ```
 
+Output:
+
 ```
 # time go mod tidy
 go: finding github.com/goph/logur v0.11.0
@@ -328,6 +330,8 @@ sudo rm -rf /tmp/gopath-for-dependency-size-test-3/*
 time go mod download
 du -sh /tmp/gopath-for-dependency-size-test-3
 ```
+
+Output:
 
 ```
 # time go mod tidy
