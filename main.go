@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/goph/logur/adapters/logrusadapter"
+	logrusadapter "logur.dev/adapter/logrus"
 	"github.com/sirupsen/logrus"
 )
 
